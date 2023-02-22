@@ -24,8 +24,8 @@ int degree(int n)
     return num;
 }
 
-if (numB > 0) 
-Console.Write($"{numA}, {numB} -> {degree(n)}");
+if (numB > 0)
+    Console.Write($"{numA}, {numB} -> {degree(n)}");
 
 
 // РЕШЕНИЕ ЭТАЛОН
@@ -41,7 +41,7 @@ Console.Write($"{numA}, {numB} -> {degree(n)}");
 // int Power(int powerBase, int exponent)
 // {
 //     int power = 1;
-//     for (int  i = 0; i < exponent; i++)
+//     for (int i = 0; i < exponent; i++)
 //     {
 //         power *= powerBase;
 //     }
@@ -50,7 +50,7 @@ Console.Write($"{numA}, {numB} -> {degree(n)}");
 
 // bool ValidateExponent(int exponent)
 // {
-//     if(exponent<0)
+//     if (exponent < 0)
 //     {
 //         Console.Write("Показатель не должен быть меньше нуля");
 //         return false;
@@ -60,7 +60,7 @@ Console.Write($"{numA}, {numB} -> {degree(n)}");
 
 // int powerBase = Prompt("Введите основание: ");
 // int exponent = Prompt("Введите показатель: ");
-// if(ValidateExponent(exponent))
+// if (ValidateExponent(exponent))
 // {
 //     Console.Write($"Число {powerBase} в степени {exponent} равно {Power(powerBase, exponent)}");
 // }
