@@ -27,3 +27,40 @@ int degree(int n)
 if (numB > 0) 
 Console.Write($"{numA}, {numB} -> {degree(n)}");
 
+
+// РЕШЕНИЕ ЭТАЛОН
+
+// int Prompt(string message)
+// {
+//     Console.Write(message); //Выводим приглашение ко вводу
+//     string readInput = Console.ReadLine()!; // вводим значение
+//     int result = int.Parse(readInput); // приводим к числу
+//     return result; // возврщаем результат
+// }
+
+// int Power(int powerBase, int exponent)
+// {
+//     int power = 1;
+//     for (int  i = 0; i < exponent; i++)
+//     {
+//         power *= powerBase;
+//     }
+//     return power;
+// }
+
+// bool ValidateExponent(int exponent)
+// {
+//     if(exponent<0)
+//     {
+//         Console.Write("Показатель не должен быть меньше нуля");
+//         return false;
+//     }
+//     return true;
+// }
+
+// int powerBase = Prompt("Введите основание: ");
+// int exponent = Prompt("Введите показатель: ");
+// if(ValidateExponent(exponent))
+// {
+//     Console.Write($"Число {powerBase} в степени {exponent} равно {Power(powerBase, exponent)}");
+// }
