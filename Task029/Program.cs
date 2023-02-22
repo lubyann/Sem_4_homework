@@ -32,12 +32,12 @@ int[] GetBinaryArray(int size)
 
 // РЕШЕНИЕ ЭТАЛОН
 
-// // Ввод числа с экрана
+// Ввод числа с экрана
 // int Prompt(string message)
 // {
 //     Console.Write(message); // Выводим приглашение ко вводу
-//     string ReadInput = Console.ReadLine();
-//     int result = int.Parse(ReadInput); // приводим к числу
+//     string ReadInput = Console.ReadLine()!;
+//     int result = int.Parse(ReadInput)!; // приводим к числу
 //     return result; // Возвращаем результат
 // }
 
@@ -53,7 +53,7 @@ int[] GetBinaryArray(int size)
 //     return array;
 // }
 
-// void PrintArray(int[] array);
+// void PrintArray(int[] array)
 // {
 //     Console.Write("[");
 //     for (int i = 0; i < array.Length - 1; i++)
@@ -61,7 +61,7 @@ int[] GetBinaryArray(int size)
 //         Console.Write($"{array[i]}, "); // вывод значения массива
 //     }
 //     Console.Write($"{array[array.Lenght - 1]}"); // вывод значения массива
-//     Console.Write("]");
+//     Console.WriteLine("]");
 // }
 
 // int lenght = Prompt("Длина массива: ");
