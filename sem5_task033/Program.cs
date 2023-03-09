@@ -45,6 +45,7 @@ int[] GetArrayFromString(string stringArray)
     return res;
 }
 
+
 bool FindElement(int[] array, int el)//[1,2,3,4] 5
 {
     foreach (var item in array)//
